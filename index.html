@@ -1,1 +1,30 @@
-<!-- HTML ->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charaset="utf-8">
+	<meta name="viewport" content="width=device-width, intital-scale=1.0">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+	<title>Pick your [ NFL ] winner</title>
+</head>
+<body>
+	<div class="container">
+		<h2>Use our advanced metrics system to determine the Conference Champions,<h2>
+		<h2>Click on the "National Football Conference" and "American Football Conference" buttons to revival your contenders.</h2>
+			<div class="youPick">
+				<!-- East classes -->
+				<button id="nfc" onclick="myNfc()"> National Football Conference </button>
+				<h2> VS </h2>
+				<!-- West classes -->
+				<button id="afc" onclick="myAfc()"> American Football Conference </button>			
+			</div>	
+		<h2 class="divide">---- Then ----</h2>
+
+		<h2>Find out who will be coming away the "SuperBowl" champions.</h2>
+		<p> * Our system may adjust for errors </p>	
+			<button id="champ" onclick="myChamp(); luck();"> SuperBowl Champion </button>
+		<h1 id="luck"> Good Luck! </h1>
+	</div>
+	<script src="js/scripts.js"></script>
+</body>
+</html>
